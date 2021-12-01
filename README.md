@@ -28,7 +28,7 @@ To customize the userstyle go on the [Paw up!](https://userstyles.org/styles/169
 
 Name | Options | Description
 ------------ | :-------------: | -------------
-**Paw** | **`classic`**, `catto`, `classic_filled`, `catto_filled` | changes the style of the paw. Use `_filled` to get only filled icons.
+**Paw** | **`Classic`**, `Catto`, `Classic (Filled)`, `Catto (Filled)` | changes the style of the paw. Use `Filled` to get only filled icons.
 **Animations** | **`enabled`**, `disable_hover`, `disabled` | enables or disables the animations on the paw. `disable_hover` only disables the up/down movement of the icon when the mouse is hovering.
 **Like Color** | **`#3ea6ff`**, Custom Color | changes the color of the paw when it is liked. 
 **Dislike Color** | **`#ff516f`**, Custom Color | changes the color of the paw when it is disliked. 
