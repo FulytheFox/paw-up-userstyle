@@ -8,7 +8,7 @@ To install the userstyle in a browser you only need an extension for your browse
 - or any another extension that embeds user-defined CSS files in websites
 
 ## ⚙ Installation 
-You can install the userstyle either via [userstyles.org](#-userstyles.org-(Recommended)) **(Recommended)** or [manually](#-manual-installation).
+You can install the userstyle either via [userstyles.org](#-userstylesorg-recommended) **(Recommended)** or [manually](#-manual-installation).
 
 #### 🔰 userstyles.org (Recommended)
 1. Go to the [Paw up!](https://userstyles.org/styles/169802) userstyle.org page.
