@@ -50,7 +50,7 @@
     /*===Lined Dislike===*/
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2) yt-icon.ytd-toggle-button-renderer {
         background-color: var(--red);
-        -webkit-mask: var(--paw_filled) no-repeat 50% 50%t;
+        -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
         mask: var(--paw_filled) no-repeat 50% 50%;
         
         transform: rotateX(-180deg);
