@@ -9,8 +9,7 @@
         --red: /*[[red]]*/;
         --gray: rgb(96, 96, 96);
         --main: black;
-        --paw_filled: var(/*[[paw_filled]]*/);
-        --paw_lineart: var(/*[[paw_lineart]]*/);
+        /*[[paw_style]]*/
     }
     /*==========*/
     
