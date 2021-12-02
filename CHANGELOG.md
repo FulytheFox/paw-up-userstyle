@@ -1,5 +1,13 @@
 # Changelog
 
+### --- Update 2021-12-02 ---
+
+> - removed animation from filter icon
+> - fixed bug that mask of paw icon is still there on save playlist/filter icon
+> - fixed a bug that paw like icon still has a hover effect
+
+----
+
 ### --- Update 2021-12-01 ---
 
 > - code cleanup & rework
