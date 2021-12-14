@@ -1,5 +1,11 @@
 # Changelog
 
+### --- Update 2021-12-14 ---
+
+> - fixed bug that icons in playlist panel changed to pawbs
+
+----
+
 ### --- Update 2021-12-02 ---
 
 > - removed animation from filter icon
