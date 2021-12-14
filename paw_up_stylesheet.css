@@ -21,7 +21,8 @@
     
     /*===PLAYLIST/FILTER ICON FIX===*/
     .ytd-playlist-sidebar-primary-info-renderer yt-icon.ytd-toggle-button-renderer,
-    .ytd-search-sub-menu-renderer yt-icon.ytd-toggle-button-renderer {
+    .ytd-search-sub-menu-renderer yt-icon.ytd-toggle-button-renderer,
+    .ytd-playlist-panel-renderer yt-icon.ytd-toggle-button-renderer {
         background-color: transparent !important;
         -webkit-mask: none !important;
         mask: none !important;
@@ -30,7 +31,7 @@
     }
     /*==============================*/
     
-    ytd-menu-renderer:not(.ytd-playlist-sidebar-primary-info-renderer) ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer svg,
+    ytd-menu-renderer:not(.ytd-playlist-sidebar-primary-info-renderer):not(.ytd-playlist-panel-renderer) ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer svg,
     ytd-search-sub-menu-renderer:not(.ytd-section-list-renderer) ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer svg,
     #dislike-button .style-scope yt-icon.ytd-toggle-button-renderer svg,
     #like-button .style-scope yt-icon.ytd-toggle-button-renderer svg
