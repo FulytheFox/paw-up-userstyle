@@ -35,4 +35,4 @@ Name | Options | Description
 
 
 ## 👏 Contribution
-If you found any bugs, ideas or suggestions for the script, please let me know in the [Issues](https://github.com/FulytheFox/paw-up-userstyle/issues)-Tab. I am happy about new suggestions!
+If you found any bugs, ideas or suggestions for this userstyle, please let me know in the [Issues](https://github.com/FulytheFox/paw-up-userstyle/issues)-Tab. I am happy about new suggestions!
