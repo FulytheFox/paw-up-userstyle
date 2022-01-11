@@ -1,5 +1,11 @@
 # Changelog
 
+### --- Update 2022-01-11 ---
+
+> - fixed bug that icons from YouTube's new Video Preview changed to pawbs
+
+---
+
 ### --- Update 2021-12-14 ---
 
 > - fixed bug that icons in playlist panel changed to pawbs
