@@ -1,6 +1,8 @@
 # Paw up! - (For furries 💕)
 A little userstyle that turns YouTube's likes/dislikes into cute pawbs 🐾
 
+![Paw up!](https://user-images.githubusercontent.com/37185496/154813212-e563ce14-d775-4572-84d3-08d551a403aa.gif)
+
 ## 📝 Requirements
 To install the userstyle in a browser you only need an extension for your browser:
 - [Stylish](https://userstyles.org/help/stylish)
