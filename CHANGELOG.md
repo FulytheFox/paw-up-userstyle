@@ -1,5 +1,11 @@
 # Changelog
 
+### --- Update 2022-05-09 ---
+
+> - **NEW!** 🎉 Extend your claws! A new paw icon has been added to the code (Try it out by customizing the userstyle!)
+
+---
+
 ### --- Update 2022-01-11 ---
 
 > - fixed bug that icons from YouTube's new Video Preview changed to pawbs
