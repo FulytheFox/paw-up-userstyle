@@ -3,6 +3,7 @@
 
 ### --- Update 2022-07-14 ---
 
+> - slight changes to catto paw icon
 > - fixed bug where the loop icon in video chapters changed to pawbs
 
 ---
