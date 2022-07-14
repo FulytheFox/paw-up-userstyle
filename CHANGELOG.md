@@ -1,5 +1,12 @@
 # Changelog
 
+
+### --- Update 2022-07-14 ---
+
+> - fixed bug where the loop icon in video chapters changed to pawbs
+
+---
+
 ### --- Update 2022-05-09 ---
 
 > - **NEW!** 🎉 Extend your claws! A new paw icon has been added to the code (Try it out by customizing the userstyle!)

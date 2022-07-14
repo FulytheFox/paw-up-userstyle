@@ -25,7 +25,8 @@
     .ytd-playlist-sidebar-primary-info-renderer yt-icon.ytd-toggle-button-renderer,
     .ytd-search-sub-menu-renderer yt-icon.ytd-toggle-button-renderer,
     .ytd-playlist-panel-renderer yt-icon.ytd-toggle-button-renderer,
-    .ytd-video-preview yt-icon.ytd-toggle-button-renderer {
+    .ytd-video-preview yt-icon.ytd-toggle-button-renderer,
+    .ytd-macro-markers-list-item-renderer yt-icon.ytd-toggle-button-renderer {
         background-color: transparent !important;
         -webkit-mask: none !important;
         mask: none !important;
