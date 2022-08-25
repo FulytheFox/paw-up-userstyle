@@ -1,6 +1,12 @@
 # Changelog
 
 
+### --- Update 2022-08-25 ---
+
+> - fixed bug where the dark theme no longer works
+
+---
+
 ### --- Update 2022-07-14 ---
 
 > - slight changes to catto paw icon

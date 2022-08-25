@@ -1,6 +1,6 @@
 @-moz-document domain("youtube.com") {
     /*===ROOT===*/
-    html[dark="true"]:root {
+    html[dark]:root {
         --gray: rgb(170, 170, 170);
         --main: white;
     }
