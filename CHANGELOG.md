@@ -1,6 +1,12 @@
 # Changelog
 
 
+### --- Update 2022-11-01 ---
+
+> - Added Support for YouTube's new Design
+
+---
+
 ### --- Update 2022-08-25 ---
 
 > - fixed bug where the dark theme no longer works
