@@ -1,9 +1,15 @@
 # Changelog
 
+### --- Update 2023-11-02 ---
+
+> - fixed bug where the buttons became a blank square
+> - fixed bug where hovering triggers both buttons
+
+---
 
 ### --- Update 2022-11-01 ---
 
-> - Added Support for YouTube's new Design
+> - added support for YouTube's new design
 
 ---
 

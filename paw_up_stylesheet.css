@@ -108,7 +108,7 @@
     /* Lined-Hover Animation */
     ytd-toggle-button-renderer[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer div:hover yt-icon,
+    ytd-segmented-like-dislike-button-renderer ytd-toggle-button-renderer:hover yt-icon,
     #like-button button:hover yt-icon,
     #dislike-button button:hover yt-icon {
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
