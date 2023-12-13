@@ -39,7 +39,7 @@
     ytd-video-preview:not(.ytd-rich-grid-renderer) ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer svg,
     #dislike-button svg,
     #like-button svg,
-    ytd-segmented-like-dislike-button-renderer svg
+    segmented-like-dislike-button-view-model svg
     {display: none !important}
     
     ytd-toggle-button-renderer.force-icon-button a.ytd-toggle-button-renderer, a.yt-simple-endpoint.ytd-toggle-button-renderer
@@ -47,7 +47,7 @@
     
     /* Lined */
     ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer yt-icon,
+    segmented-like-dislike-button-view-model yt-icon,
     #like-button button yt-icon,
     #dislike-button button yt-icon {
         background-color: var(--main);
@@ -59,7 +59,7 @@
     }
     /* Lined Like */
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer #segmented-like-button button[aria-pressed="true"] yt-icon,
+    segmented-like-dislike-button-view-model like-button-view-model button[aria-pressed="true"] yt-icon,
     #like-button button[aria-pressed="true"] yt-icon {
         background-color: var(--blue);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
@@ -69,7 +69,7 @@
 
     /* Lined Dislike */
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2) yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer #segmented-dislike-button button[aria-pressed="true"] yt-icon,
+    segmented-like-dislike-button-view-model dislike-button-view-model button[aria-pressed="true"] yt-icon,
     #dislike-button button[aria-pressed="true"] yt-icon {
         background-color: var(--red);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
@@ -80,8 +80,9 @@
     }
 
     /* Paper */
-    ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer {
-        background-color: var(--gray);
+    #like-button[is-shorts] button yt-icon,
+    #dislike-button[is-shorts] button yt-icon {
+        background-color: var(--main);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
         mask: var(--paw_filled) no-repeat 50% 50%;
         -webkit-mask-size: contain;
@@ -89,26 +90,23 @@
         transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     /* Paper Like */
-    ytd-toggle-button-renderer.style-default-active[is-paper-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer {
+    #like-button[is-shorts] button[aria-pressed="true"] yt-icon {
         background-color: var(--blue);
         
         transform: none;
         transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     /* Paper Dislike */
-    ytd-toggle-button-renderer.style-default-active[is-paper-button]:nth-of-type(2) yt-icon.ytd-toggle-button-renderer {
+    #dislike-button[is-shorts] button[aria-pressed="true"] yt-icon {
         background-color: var(--red);
         
         transform: rotateX(-180deg);
         transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
-    ytd-toggle-button-renderer.style-default-active[is-paper-button]:nth-of-type(2) yt-formatted-string.ytd-toggle-button-renderer
-        {color: var(--red) !important}
-    
     /* Lined-Hover Animation */
     ytd-toggle-button-renderer[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer ytd-toggle-button-renderer:hover yt-icon,
+    segmented-like-dislike-button-view-model ytd-toggle-button-renderer:hover yt-icon,
     #like-button button:hover yt-icon,
     #dislike-button button:hover yt-icon {
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
@@ -116,15 +114,15 @@
         transform: scale(1.25);
     }
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer #segmented-like-button button[aria-pressed="true"] yt-icon
+    segmented-like-dislike-button-view-model like-button-view-model button[aria-pressed="true"] yt-icon
         {animation: paw_up .5s cubic-bezier(0.165, 0.84, 0.44, 1)}
 
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1):hover yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer #segmented-like-button:hover button[aria-pressed="true"] yt-icon
+    segmented-like-dislike-button-view-model like-button-view-model:hover button[aria-pressed="true"] yt-icon
         {transform: translateY(-10px)}
 
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2):hover yt-icon.ytd-toggle-button-renderer,
-    ytd-segmented-like-dislike-button-renderer #segmented-dislike-button:hover button[aria-pressed="true"] yt-icon
+    segmented-like-dislike-button-view-model dislike-button-view-model:hover button[aria-pressed="true"] yt-icon
         {transform: rotateX(-180deg) translateY(-10px)}
     
     /* Paper-Hover Animation */
