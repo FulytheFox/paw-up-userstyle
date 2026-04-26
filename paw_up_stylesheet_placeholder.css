@@ -31,7 +31,8 @@
     ytd-video-preview:not(.ytd-rich-grid-renderer) ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer svg,
     #dislike-button svg,
     #like-button svg,
-    segmented-like-dislike-button-view-model svg
+    like-button-view-model button > .ytSpecButtonShapeNextIcon svg,
+    dislike-button-view-model button > .ytSpecButtonShapeNextIcon svg
     {display: none !important}
     
     ytd-toggle-button-renderer.force-icon-button a.ytd-toggle-button-renderer, a.yt-simple-endpoint.ytd-toggle-button-renderer
@@ -39,9 +40,10 @@
     
     /* Lined */
     ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer,
-    segmented-like-dislike-button-view-model div.yt-spec-button-shape-next__icon > *,
-    #like-button button div.yt-spec-button-shape-next__icon > *,
-    #dislike-button button div.yt-spec-button-shape-next__icon > * {
+    ytd-comment-engagement-bar ytd-toggle-button-renderer div.ytSpecButtonShapeNextIcon > *,
+    ytd-comment-action-buttons-renderer ytd-toggle-button-renderer div.ytSpecButtonShapeNextIcon > *,
+    .ytLikeButtonViewModelHost:not(.ytwReelActionBarViewModelHostDesktopActionButton) button div.ytSpecButtonShapeNextIcon > *,
+    .ytDislikeButtonViewModelHost:not(.ytwReelActionBarViewModelHostDesktopActionButton) button div.ytSpecButtonShapeNextIcon > * {
         background-color: var(--main);
         -webkit-mask: var(--paw_lineart) no-repeat 50% 50%;
         mask: var(--paw_lineart) no-repeat 50% 50%;
@@ -52,8 +54,8 @@
 
     /* Lined Like */
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer,
-    segmented-like-dislike-button-view-model like-button-view-model button[aria-pressed="true"] div.yt-spec-button-shape-next__icon > *,
-    #like-button button[aria-pressed="true"] div.yt-spec-button-shape-next__icon > * {
+    .ytLikeButtonViewModelHost:not(.ytwReelActionBarViewModelHostDesktopActionButton) button[aria-pressed="true"] div.ytSpecButtonShapeNextIcon > *,
+    #like-button button[aria-pressed="true"] div.ytSpecButtonShapeNextIcon > * {
         background-color: var(--blue);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
         mask: var(--paw_filled) no-repeat 50% 50%;
@@ -62,8 +64,8 @@
 
     /* Lined Dislike*/
     ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2) yt-icon.ytd-toggle-button-renderer,
-    segmented-like-dislike-button-view-model dislike-button-view-model button[aria-pressed="true"] div.yt-spec-button-shape-next__icon > *,
-    #dislike-button button[aria-pressed="true"] div.yt-spec-button-shape-next__icon > * {
+    .ytDislikeButtonViewModelHost:not(.ytwReelActionBarViewModelHostDesktopActionButton) button[aria-pressed="true"] div.ytSpecButtonShapeNextIcon > *,
+    #dislike-button button[aria-pressed="true"] div.ytSpecButtonShapeNextIcon > * {
         background-color: var(--red);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
         mask: var(--paw_filled) no-repeat 50% 50%;
@@ -73,8 +75,8 @@
     }
 
     /* Paper */
-    #like-button[is-shorts] button yt-icon,
-    #dislike-button[is-shorts] button yt-icon {
+    reel-action-bar-view-model like-button-view-model button > .ytSpecButtonShapeNextIcon,
+    reel-action-bar-view-model dislike-button-view-model button > .ytSpecButtonShapeNextIcon {
         background-color: var(--main);
         -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
         mask: var(--paw_filled) no-repeat 50% 50%;
@@ -83,14 +85,14 @@
         transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     /* Paper Like */
-    #like-button[is-shorts] button[aria-pressed="true"] yt-icon {
+    reel-action-bar-view-model like-button-view-model button[aria-pressed="true"] > .ytSpecButtonShapeNextIcon {
         background-color: var(--blue);
         
         transform: none;
         transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
     /* Paper Dislike */
-    #dislike-button[is-shorts] button[aria-pressed="true"] yt-icon {
+    reel-action-bar-view-model dislike-button-view-model button[aria-pressed="true"] > .ytSpecButtonShapeNextIcon {
         background-color: var(--red);
         
         transform: rotateX(-180deg);
@@ -101,13 +103,12 @@
     
     /* Disable Button Animations On Comments */
     #like-button.ytd-comment-action-buttons-renderer.style-default-active[is-icon-button] yt-icon.ytd-toggle-button-renderer,
-    #like-button button:hover yt-icon,
-    #dislike-button button:hover yt-icon {
+    #like-button button:hover div.ytSpecButtonShapeNextIcon > * {
         animation: none !important;
         transform: none !important;
     }
     #dislike-button.ytd-comment-action-buttons-renderer.style-default-active[is-icon-button] yt-icon.ytd-toggle-button-renderer,
-    #dislike-button button:hover yt-icon
+    #dislike-button button:hover div.ytSpecButtonShapeNextIcon > *
         {transform: rotateX(-180deg) !important}
     
     /* Keyframes */
